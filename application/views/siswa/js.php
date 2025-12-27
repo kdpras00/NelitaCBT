@@ -67,4 +67,4 @@
 <!-- iCheck 1.0.1 -->
 <script src="<?php echo base_url() ?>assets/plugins/iCheck/icheck.min.js"></script>
 <!-- timer -->
-<script src="<?php echo base_url() ?>assets/timer/jquery.syotimer.min.js"></script>
+<script src="<?php echo base_url() ?>assets/timer/jquery.countdown.min.js"></script>

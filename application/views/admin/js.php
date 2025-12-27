@@ -68,11 +68,10 @@
 <script src="<?php echo base_url() ?>assets/plugins/iCheck/icheck.min.js"></script>
 <!-- CK Editor -->
 <script src="<?php echo base_url() ?>assets/ckeditor/ckeditor.js"></script>
-<script src="<?php echo base_url() ?>assets/ckeditor/plugins/language/plugin.js"></script>
 <script src="<?php echo base_url() ?>assets/ckeditor/plugins/ckeditor_wiris/plugin.js"></script>
 <script src="<?php echo base_url() ?>assets/ckeditor/adapters/jquery.js"></script>
 <!-- timer -->
-<script src="<?php echo base_url() ?>assets/timer/jquery.syotimer.min.js"></script>
+<script src="<?php echo base_url() ?>assets/timer/jquery.countdown.min.js"></script>
 <!-- setup selector -->
 <script type="text/javascript">
 	$('textarea.soal').ckeditor();

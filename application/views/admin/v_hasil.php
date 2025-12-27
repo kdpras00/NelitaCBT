@@ -56,10 +56,12 @@ $this->load->view('admin/sidebar');
                         $id = $_GET['id']; 
                     ?>
                     <a href="<?=base_url().'hasil_ujian/print_all?id='.$id ?>" class="btn btn-danger btn-flat" target="_blank"><i class="fa fa-file-pdf-o"></i> Cetak Sesuai Filter</a>
+                    <a href="<?=base_url().'hasil_ujian/export_excel?id='.$id ?>" class="btn btn-success btn-flat" target="_blank"><i class="fa fa-file-excel-o"></i> Export Excel Filter</a>
                     <a href="<?=base_url().'hasil_ujian/belum_ujian?id='.$id ?>" class="btn btn-warning btn-flat"><i class="fa fa-users"></i> Lihat Yang Belum Ujian</a>
                     <?php } ?>
 
                     <a href="<?=base_url('hasil_ujian/print_all')?>" class="btn btn-primary btn-flat pull-right" target="_blank"><i class="fa fa-print"></i> Cetak Semua Hasil Ujian</a>
+                    <a href="<?=base_url('hasil_ujian/export_excel')?>" class="btn btn-success btn-flat pull-right" target="_blank" style="margin-right: 10px;"><i class="fa fa-file-excel-o"></i> Export Excel Semua</a>
                 </div>
               <div class="box-body">
                 <table id="data" class="table table-bordered table-striped">                    
